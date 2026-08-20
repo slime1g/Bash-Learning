@@ -1,7 +1,6 @@
 # Bash-Learning
 **bourne again shell**
 to see what shell ur running currently use the 
-`echo $SHELL` command
 
 how to see what shell youre running 
 `which $SHELL`
@@ -40,3 +39,29 @@ read command will get user input and will get storred into the name varrible
 slime@whas scripts]$ ./bestdayever.sh abby
 good Morning abby!!
 ```
+
+$Random Variables are Variables that give out a random number between 0 - 3276  
+and there a bunch other pre build bash Variables
+$USER
+$SHELL
+$HOSTNAME
+$PWD
+
+you can actually create ur very own System wide Variables with the following command
+
+`bbz="biel"`
+
+u cant use this in childprocess like your scripts to make it work you need to run following commands
+`export bbz`
+
+but when you restart your device this is not aa permant varrible to make a variable permant u need to edit the file 
+`.bashrc`
+
+### math in bash
+
+if u wanna do math u have to tell bash that ur gonna do arithmetic Expression  u do that by adding two open and closed parentheses so to do a simple calcualtion you would write `echo $((2+3))`
+
+
+### If statements
+
+
