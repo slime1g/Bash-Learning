@@ -11,7 +11,7 @@ echo "hello $name, you are $age old"
 
 
 sleep 1 
-getrich=$((( $Random % 15) + $age ))
+getrich=$((( $RANDOM % 15) + $age ))
 
 echo "$name, you will be rich in $getrich years sorry buddy"
 
