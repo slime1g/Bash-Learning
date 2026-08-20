@@ -64,4 +64,12 @@ if u wanna do math u have to tell bash that ur gonna do arithmetic Expression  u
 
 ### If statements
 
+```Bash
+if [[ $coffee == "y" ]]; then
+    echo "youre cool"
+else
+    echo "eww"
+fi #you always finnish a if statement with fi (for some reason
+```
+you can not just do **==** you can also use stuf like < or > 
 
