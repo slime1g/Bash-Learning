@@ -1,5 +1,7 @@
 # Bash-Learning
 **bourne again shell**
+to see what shell ur running currently use the 
+`echo $SHELL` command
 
 how to see what shell youre running 
 `which $SHELL`
